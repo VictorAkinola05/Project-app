@@ -11,14 +11,14 @@ In this lab, you will create a Smart Home Management App using various AWS servi
 3. Select a database engine (e.g., MySQL or PostgreSQL).
 4. Choose Free Tier or Dev/Test for the database template.
 5. Instance Type: Select db.t3.micro.
-6. Storage: Use General Purpose SSD with a maximum of 100GB.
-7. Database Name: Set a name (e.g., SmartHomeDB).
-8. Master Username/Password: Set up the admin credentials.
-9. Launch the database.
+6. Storage: Use General Purpose SSD with a maximum of 20GB.
+7. Ensure the database is publicly accessible (for the lab).
+8. Database Name: Set a name (e.g., SmartHomeDB).
+9. Master Username/Password: Set up the admin credentials.
+10. Launch the database.
 
 ###### Step 1.2: Configure Database Connectivity
 
-Ensure the database is publicly accessible (for the lab).
 Set up VPC Security Groups to allow access from your application and development environment.
 
 ###### Step 1.3: Create Tables
